@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Sinais do Piaui"
+run/main_scene="uid://bcqk3rmrv2vhn"
+config/features=PackedStringArray("4.6", "Mobile")
+boot_splash/image="uid://bpsyany0l1h3j"
+config/icon="uid://de3nkjrtx4kfa"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/always_on_top=true
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
