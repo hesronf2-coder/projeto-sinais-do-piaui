@@ -42,3 +42,57 @@ func load_quiz() -> void:
 		$Control/ButtonNext.hide()
 	else:
 		$Control/ButtonNext.show()
+func _next_question() -> void:
+	index += 1
+	
+func _previous_question() -> void:
+	index -= 1
+
+
+func _on_button_previous_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	_previous_question()
+	load_quiz()
+	print(index)	
+
+
+func _on_button_next_pressed() -> void:
+	
+	_next_question()
+	load_quiz()
+	$Control/ImageHolder/QuestionImage2.hide()
+	$Control/ImageHolder/QuestionImage.show()
+	$Control/AudioButtonPress.play()
+	$Control/ButtonInfo.show()
+	$Control/ButtonInfoExit.hide()
+	print(index)
+	
+
+func _on_button_play_audio_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	question_audio.play()
+	$Control/ButtonPlayAudio.hide()
+	$Control/ButtonStopAudio.show()
+func _on_button_stop_audio_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	question_audio.stop()
+	$Control/ButtonStopAudio.hide()
+	$Control/ButtonPlayAudio.show()
+
+func _on_button_info_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	$Control/ImageHolder/QuestionImage.hide()
+	$Control/ImageHolder/QuestionImage2.show()
+	$Control/ButtonInfo.hide()
+	$Control/ButtonInfoExit.show()
+
+func _on_button_info_exit_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	$Control/ImageHolder/QuestionImage2.hide()
+	$Control/ImageHolder/QuestionImage.show()
+	$Control/ButtonInfo.show()
+	$Control/ButtonInfoExit.hide()
+
+func _on_button_home_pressed() -> void:
+	$Control/AudioButtonPress.play()
+	get_tree().change_scene_to_file("res://scenes/tela_home.tscn")
