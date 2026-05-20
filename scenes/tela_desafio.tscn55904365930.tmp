@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://dn37dixggxru6"]
+
+[ext_resource type="Script" uid="uid://csfpqmdeixb1i" path="res://scripts/controllers/game_controllers.gd" id="1_2805t"]
+[ext_resource type="Texture2D" uid="uid://b5gfythgijxkp" path="res://image/fundo_tema/tema_desafio.jpg" id="1_i0tg1"]
+[ext_resource type="Resource" uid="uid://8nsdnn2h0fq5" path="res://resources/varied/theme/theme_varied.tres" id="2_sx55a"]
+
+[node name="main_desafio" type="CanvasLayer" unique_id=358581762]
+script = ExtResource("1_2805t")
+quiz = ExtResource("2_sx55a")
+cor_correta = null
+cor_errada = null
+
+[node name="Control" type="Control" parent="." unique_id=1367083280]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="tema_tela_desafio" type="Sprite2D" parent="Control" unique_id=1186036168]
+position = Vector2(362.5, 637.5)
+scale = Vector2(0.6712963, 0.6692708)
+texture = ExtResource("1_i0tg1")
+
+[node name="fundo_imagem" type="Panel" parent="Control" unique_id=1969483129]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 296.0
+offset_right = 652.0
+offset_bottom = 712.0
+
+[node name="imagem_questão" type="TextureRect" parent="Control/fundo_imagem" unique_id=675315761]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="auidio_questao" type="AudioStreamPlayer2D" parent="Control/fundo_imagem" unique_id=300197471]
+
+[node name="video_questao" type="VideoStreamPlayer" parent="Control/fundo_imagem" unique_id=840887567]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="quadro_respostas" type="VBoxContainer" parent="Control" unique_id=1731938921]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 762.0
+offset_right = 654.0
+offset_bottom = 1231.0
+theme_override_constants/separation = 20
+
+[node name="botao1" type="Button" parent="Control/quadro_respostas" unique_id=476453896]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 50
+text = "teste"
+
+[node name="botao2" type="Button" parent="Control/quadro_respostas" unique_id=573663256]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 20
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 50
+
+[node name="botao3" type="Button" parent="Control/quadro_respostas" unique_id=1536205887]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 20
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 50

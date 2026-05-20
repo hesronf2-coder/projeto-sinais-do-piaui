@@ -1,0 +1,193 @@
+[gd_scene format=3 uid="uid://xag8ol7wewh0"]
+
+[ext_resource type="Script" uid="uid://3v1yn5x8rfni" path="res://scripts/controllers/controllers_tela_aprender.gd" id="1_slffl"]
+[ext_resource type="Resource" uid="uid://ts4oce0mvopv" path="res://resources/varied/theme/theme_varied_aprender.tres" id="2_ek0j4"]
+[ext_resource type="Texture2D" uid="uid://caixnqtqopl2w" path="res://image/fundo_tema/temaaprender.jpg" id="3_6nego"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="4_6nego"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6nego"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x6xk7"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bkkfs"]
+bg_color = Color(5.7756904e-07, 0.64291227, 0.9252763, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e886n"]
+bg_color = Color(8.4228816e-07, 0.60084796, 0.28227624, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
+script = ExtResource("1_slffl")
+quiz = ExtResource("2_ek0j4")
+
+[node name="Control" type="Control" parent="." unique_id=594092009]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TemaTelaAprender" type="Sprite2D" parent="Control" unique_id=1186036168]
+position = Vector2(363, 644)
+scale = Vector2(0.6712963, 0.6692708)
+texture = ExtResource("3_6nego")
+
+[node name="QuestionText" type="Label" parent="Control" unique_id=1666741447]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -337.0
+offset_top = -408.0
+offset_right = 232.0
+offset_bottom = -331.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Exemplo"
+vertical_alignment = 1
+
+[node name="ImageHolder" type="Panel" parent="Control" unique_id=828233718]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 314.0
+offset_right = 699.0
+offset_bottom = 1072.0
+
+[node name="QuestionImage" type="TextureRect" parent="Control/ImageHolder" unique_id=126733452]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="QuestionImage2" type="TextureRect" parent="Control/ImageHolder" unique_id=913048424]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="QuestionVideo" type="VideoStreamPlayer" parent="Control/ImageHolder" unique_id=1896347511]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonNext" type="Button" parent="Control" unique_id=261780115]
+layout_mode = 0
+offset_left = 457.0
+offset_top = 1140.0
+offset_right = 704.0
+offset_bottom = 1203.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13725491, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_6nego")
+text = "PRÓXIMA"
+
+[node name="ButtonPrevious" type="Button" parent="Control" unique_id=227929078]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 1140.0
+offset_right = 260.0
+offset_bottom = 1203.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13725491, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_x6xk7")
+text = "ANTERIOR"
+
+[node name="ButtonPlayAudio" type="Button" parent="Control" unique_id=60342226]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -307.0
+offset_top = -201.0
+offset_right = -101.0
+offset_bottom = -151.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 30
+text = "OUVIR ÁUDIO"
+
+[node name="ButtonStopAudio" type="Button" parent="Control" unique_id=1962263183]
+visible = false
+layout_mode = 0
+offset_left = 114.0
+offset_top = 1076.0
+offset_right = 370.0
+offset_bottom = 1139.0
+theme_override_font_sizes/font_size = 30
+text = "PARAR ÁUDIO"
+
+[node name="ButtonInfo" type="Button" parent="Control" unique_id=1595571828]
+layout_mode = 0
+offset_left = 188.0
+offset_top = 1073.0
+offset_right = 534.0
+offset_bottom = 1127.0
+theme_override_colors/font_color = Color(0.0035191544, 0.0035191746, 0.0035191574, 1)
+theme_override_constants/outline_size = 0
+theme_override_constants/h_separation = 0
+theme_override_constants/icon_max_width = 0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_bkkfs")
+text = "VER GESTO EM LIBRAS"
+
+[node name="ButtonInfoExit" type="Button" parent="Control" unique_id=1274038089]
+visible = false
+layout_mode = 0
+offset_left = 220.0
+offset_top = 1077.0
+offset_right = 506.0
+offset_bottom = 1129.0
+theme_override_font_sizes/font_size = 30
+text = "VER INFORMAÇÕES"
+
+[node name="ButtonHome" type="Button" parent="Control" unique_id=100517226]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -81.0
+offset_right = 72.0
+offset_bottom = -7.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.014275181, 0.014275239, 0.0142751895, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_e886n")
+text = "INÍCIO"
+
+[node name="QuestionAudio" type="AudioStreamPlayer" parent="Control" unique_id=1004942740]
+
+[node name="AudioButtonPress" type="AudioStreamPlayer" parent="Control" unique_id=894915744]
+stream = ExtResource("4_6nego")
+
+[connection signal="pressed" from="Control/ButtonNext" to="." method="_on_button_next_pressed"]
+[connection signal="pressed" from="Control/ButtonPrevious" to="." method="_on_button_previous_pressed"]
+[connection signal="pressed" from="Control/ButtonPlayAudio" to="." method="_on_button_play_audio_pressed"]
+[connection signal="pressed" from="Control/ButtonStopAudio" to="." method="_on_button_stop_audio_pressed"]
+[connection signal="pressed" from="Control/ButtonInfo" to="." method="_on_button_info_pressed"]
+[connection signal="pressed" from="Control/ButtonInfoExit" to="." method="_on_button_info_exit_pressed"]
+[connection signal="pressed" from="Control/ButtonHome" to="." method="_on_button_home_pressed"]

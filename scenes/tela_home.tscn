@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://bcqk3rmrv2vhn"]
+
+[ext_resource type="Script" uid="uid://ff0gd5onrlio" path="res://scripts/controllers/home.gd" id="1_jfreh"]
+[ext_resource type="Texture2D" uid="uid://b77gteh72wmxw" path="res://image/fundo_tema/temainicio.jpg" id="2_0c2ro"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="3_0c2ro"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0c2ro"]
+bg_color = Color(0.65882355, 0, 0.015686275, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
+script = ExtResource("1_jfreh")
+
+[node name="Control" type="Control" parent="." unique_id=216256120]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TemaHome" type="Sprite2D" parent="Control" unique_id=1186036168]
+position = Vector2(362.5, 637.5)
+scale = Vector2(0.6712963, 0.6692708)
+texture = ExtResource("2_0c2ro")
+
+[node name="ButtonAprender" type="Button" parent="Control" unique_id=585376701]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 687.0
+offset_right = 647.0
+offset_bottom = 823.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_font_sizes/font_size = 60
+text = "MODO ESTUDO"
+
+[node name="ButtonDesafio" type="Button" parent="Control" unique_id=341394932]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 863.0
+offset_right = 649.0
+offset_bottom = 999.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_font_sizes/font_size = 60
+text = "MODO DESAFIO"
+
+[node name="AudioButton" type="AudioStreamPlayer" parent="Control" unique_id=260847086]
+stream = ExtResource("3_0c2ro")
+
+[node name="ButtonQuit" type="Button" parent="Control" unique_id=1256022736]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 1090.0
+offset_right = 438.0
+offset_bottom = 1159.0
+theme_override_colors/font_color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_0c2ro")
+text = "SAIR"
+
+[node name="VersionText" type="Label" parent="Control" unique_id=201062254]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -131.5
+offset_top = -35.0
+offset_right = 131.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.019925633, 0.019925632, 0.019925632, 1)
+theme_override_font_sizes/font_size = 25
+text = "CETIMARS 2026   v-1.0"
+
+[connection signal="pressed" from="Control/ButtonAprender" to="." method="_on_button_aprender_pressed"]
+[connection signal="pressed" from="Control/ButtonDesafio" to="." method="_on_button_desafio_pressed"]
+[connection signal="pressed" from="Control/ButtonQuit" to="." method="_on_button_quit_pressed"]
