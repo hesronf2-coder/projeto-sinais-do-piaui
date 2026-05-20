@@ -80,3 +80,39 @@ func _next_question() -> void:
 	$Control/ButtonGoQuestion.hide()
 	index += 1
 	load_quiz()
+func _game_progress() -> void:
+	$Control/GameProgress.show()
+	$Control/GameProgress/ScoreText.text = str(correct, " de ", quiz.theme.size() - 1)
+		
+
+func _question_info() -> void:
+	$Control/QuestionInfo.show()
+	$Control/QuestionOpitions.hide()
+	$Control/ButtonHome.hide()
+
+
+func _on_button_continue_pressed() -> void:
+	$AudioGoQuestion.play()
+	$Control/QuestionInfo.hide()
+	$Control/QuestionOpitions.show()	
+	$Control/ButtonHome.show()
+	
+	if index >= quiz.theme.size() -1:
+		_game_progress()
+	else:
+		_next_question()
+	
+
+func _on_button_go_question_pressed() -> void:
+	$AudioGoQuestion.play()
+	_next_question()
+
+
+func _on_button_exit_pressed() -> void:
+	$AudioGoQuestion.play()
+	get_tree().change_scene_to_file("res://scenes/tela_home.tscn")
+
+
+func _on_button_home_pressed() -> void:
+	$AudioGoQuestion.play()
+	get_tree().change_scene_to_file("res://scenes/tela_home.tscn")
