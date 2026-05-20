@@ -24,3 +24,26 @@ func _ready() -> void:
 		buttons.append(button)
 		
 	load_quiz()
+
+func load_quiz() -> void:
+	info_text.text = current_quiz.question_info
+	
+	if index >= quiz.theme.size() - 1:
+		_game_progress()
+		return
+		
+	var options = current_quiz.options
+	for i in buttons.size():
+		buttons[i].text = options[i]
+		buttons[i].pressed.connect(_buttons_answer.bind(buttons[i]))
+		
+		match current_quiz.type:
+		
+			Enum.QuestionType.IMAGE:
+				$Control/ImageHolder.show()
+				question_image.texture = current_quiz.question_image
+			
+			Enum.QuestionType.VIDEO:
+				$Control/Fundoimagem.show()
+				question_video.stream = current_quiz.question_video
+				question_video.play()
