@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://cidn615camod1"]
+
+[ext_resource type="Texture2D" uid="uid://bk8cbv22p00fq" path="res://image/image_desafio/bumbameuboi2.jpeg" id="1_1ofoq"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_43dg0"]
+
+[resource]
+script = ExtResource("2_43dg0")
+question_info = "Há uma forte disputa histórica e cultural entre Piauí e Maranhão sobre onde o Bumba Meu Boi nasceu. No Piauí, a lenda se fortaleceu com os vaqueiros, virando tema de músicas e símbolo de identidade regional."
+question_image = ExtResource("1_1ofoq")
+options = Array[String](["Reizado", "Bumba-Meu-Boi", "Curupira"])
+correct = "Bumba-Meu-Boi"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

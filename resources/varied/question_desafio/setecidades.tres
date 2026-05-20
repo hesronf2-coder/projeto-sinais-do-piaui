@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://d010wf4t1q08v"]
+
+[ext_resource type="Texture2D" uid="uid://btpbfeq7nf8wu" path="res://image/image_desafio/setecidades2.jpeg" id="1_17vsp"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_a1ltc"]
+
+[resource]
+script = ExtResource("2_a1ltc")
+question_info = "O folclore local diz que dois lagartos de pedra se encontram para um beijo. Caso eles se beijem, a maldição será quebrada e a região voltará a ser mar."
+question_image = ExtResource("1_17vsp")
+options = Array[String](["São Raimundo Nonato", "Picos", "Sete Cidades"])
+correct = "Sete Cidades"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

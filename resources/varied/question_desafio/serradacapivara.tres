@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bmadyth1e0fgn"]
+
+[ext_resource type="Texture2D" uid="uid://dcx37bej44et6" path="res://image/image_desafio/serracapivara2.jpeg" id="1_1k1rl"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_7wupk"]
+
+[resource]
+script = ExtResource("2_7wupk")
+question_info = "O Parque Nacional Serra da Capivara, no Piauí, é um dos maiores santuários arqueológicos do planeta. O local é famoso por abrigar a maior concentração de pinturas rupestres do mundo e por abrigar vestígios que desafiam as teorias tradicionais sobre a chegada dos primeiros humanos às Américas."
+question_image = ExtResource("1_1k1rl")
+options = Array[String](["Parque Sete Cidades", "Serra da Capivara", "Nascentes do Parnaíba"])
+correct = "Serra da Capivara"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

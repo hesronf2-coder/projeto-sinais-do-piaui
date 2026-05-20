@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://cmuci4rjpk5j3"]
+
+[ext_resource type="Texture2D" uid="uid://b06awbta8yax4" path="res://image/image_aprender/serradacapivara3.jpeg" id="2_5ef5x"]
+[ext_resource type="Texture2D" uid="uid://da6bexykmbgw" path="res://image/image_aprender/serracapivara.jpeg" id="2_6bef5"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_yxn5y"]
+
+[resource]
+script = ExtResource("2_yxn5y")
+question_info = "Serra da Capivara"
+question_image = ExtResource("2_5ef5x")
+question_image2 = ExtResource("2_6bef5")
+options = Array[String](["Esmeralda", "Opala", "Diamante"])
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="QuizTheme" format=3 uid="uid://ts4oce0mvopv"]
+
+[ext_resource type="Script" uid="uid://ksbkk86apgwo" path="res://scripts/resources/theme.gd" id="1_31dew"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_e0g33"]
+[ext_resource type="Resource" uid="uid://culvgqm1hdyw6" path="res://resources/varied/question_aprender/rioparnaiba.tres" id="3_d5e5m"]
+[ext_resource type="Resource" uid="uid://bts3nto8mbcsr" path="res://resources/varied/question_aprender/opala.tres" id="4_fyhnh"]
+[ext_resource type="Resource" uid="uid://ynt3571suujv" path="res://resources/varied/question_aprender/bumbameuboi.tres" id="5_0w2l5"]
+[ext_resource type="Resource" uid="uid://b05pw6bhc3tc3" path="res://resources/varied/question_aprender/carnauba.tres" id="6_h42oo"]
+[ext_resource type="Resource" uid="uid://t3lebafghs7" path="res://resources/varied/question_aprender/riopoty.tres" id="7_gfp5b"]
+[ext_resource type="Resource" uid="uid://cmuci4rjpk5j3" path="res://resources/varied/question_aprender/serradacapivara.tres" id="8_u8iuk"]
+[ext_resource type="Resource" uid="uid://eudr47vj5buc" path="res://resources/varied/question_aprender/santacruz.tres" id="9_bhivl"]
+[ext_resource type="Resource" uid="uid://b7mehavlr2yoo" path="res://resources/varied/question_aprender/setecidades.tres" id="10_47kdh"]
+[ext_resource type="Resource" uid="uid://cb66c83qdld5v" path="res://resources/varied/question_aprender/caju.tres" id="11_s3t4j"]
+[ext_resource type="Resource" uid="uid://bm02voyvxdfni" path="res://resources/varied/question_aprender/teresina.tres" id="12_0j8dj"]
+
+[resource]
+script = ExtResource("1_31dew")
+theme = Array[ExtResource("2_e0g33")]([ExtResource("3_d5e5m"), ExtResource("4_fyhnh"), ExtResource("5_0w2l5"), ExtResource("6_h42oo"), ExtResource("7_gfp5b"), ExtResource("8_u8iuk"), ExtResource("9_bhivl"), ExtResource("10_47kdh"), ExtResource("11_s3t4j"), ExtResource("12_0j8dj")])
+metadata/_custom_type_script = "uid://ksbkk86apgwo"

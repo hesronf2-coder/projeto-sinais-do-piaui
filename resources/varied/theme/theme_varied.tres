@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="QuizTheme" format=3 uid="uid://8nsdnn2h0fq5"]
+
+[ext_resource type="Script" uid="uid://ksbkk86apgwo" path="res://scripts/resources/theme.gd" id="1_5gg2b"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_1ffxt"]
+[ext_resource type="Resource" uid="uid://dx468gv5viiv3" path="res://resources/varied/question_desafio/opala.tres" id="4_eovgx"]
+[ext_resource type="Resource" uid="uid://cidn615camod1" path="res://resources/varied/question_desafio/bumbameuboi.tres" id="5_nfnw1"]
+[ext_resource type="Resource" uid="uid://dqqiwlxbcesse" path="res://resources/varied/question_desafio/carnaúba.tres" id="6_lx5i8"]
+[ext_resource type="Resource" uid="uid://bibbgbgo6oxy" path="res://resources/varied/question_desafio/rioparnaiba.tres" id="7_4y2wv"]
+[ext_resource type="Resource" uid="uid://bokjojxe3dqr8" path="res://resources/varied/question_desafio/santacruz.tres" id="8_0g326"]
+[ext_resource type="Resource" uid="uid://d010wf4t1q08v" path="res://resources/varied/question_desafio/setecidades.tres" id="9_aecnv"]
+[ext_resource type="Resource" uid="uid://cgppduoefumkf" path="res://resources/varied/question_desafio/canionpoty.tres" id="9_nfnw1"]
+[ext_resource type="Resource" uid="uid://cmlj5e18gyrcs" path="res://resources/varied/question_desafio/teresina.tres" id="10_6ut8u"]
+[ext_resource type="Resource" uid="uid://bjdn17kggx16k" path="res://resources/varied/question_desafio/caju.tres" id="11_q3e1i"]
+[ext_resource type="Resource" uid="uid://bmadyth1e0fgn" path="res://resources/varied/question_desafio/serradacapivara.tres" id="12_eovgx"]
+[ext_resource type="Resource" uid="uid://5g1vjgccc8d0" path="res://resources/varied/question_desafio/ultimaquestao.tres" id="12_pami2"]
+
+[resource]
+script = ExtResource("1_5gg2b")
+theme = Array[ExtResource("2_1ffxt")]([ExtResource("12_eovgx"), ExtResource("4_eovgx"), ExtResource("5_nfnw1"), ExtResource("6_lx5i8"), ExtResource("9_aecnv"), ExtResource("8_0g326"), ExtResource("9_nfnw1"), ExtResource("10_6ut8u"), ExtResource("7_4y2wv"), ExtResource("11_q3e1i"), ExtResource("12_pami2")])
+metadata/_custom_type_script = "uid://ksbkk86apgwo"

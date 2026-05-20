@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bts3nto8mbcsr"]
+
+[ext_resource type="Texture2D" uid="uid://co3jdy53vyrvv" path="res://image/image_aprender/opala.jpeg" id="1_kslo7"]
+[ext_resource type="Texture2D" uid="uid://20tks5e65cf3" path="res://image/image_aprender/opalas3.jpeg" id="2_fkei0"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_qegfq"]
+
+[resource]
+script = ExtResource("2_qegfq")
+question_info = "Opala"
+question_image = ExtResource("2_fkei0")
+question_image2 = ExtResource("1_kslo7")
+options = Array[String](["Esmeralda", "Opala", "Diamante"])
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

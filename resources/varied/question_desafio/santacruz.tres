@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bokjojxe3dqr8"]
+
+[ext_resource type="Texture2D" uid="uid://15x8fmpwlgtv" path="res://image/image_desafio/santacruz2.jpeg" id="1_a8uat"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_x4ims"]
+
+[resource]
+script = ExtResource("2_x4ims")
+question_info = "Santa Cruz dos Milagres é um pequeno município piauiense (a cerca de 180 km de Teresina) e a 3ª maior romaria do Nordeste. O local atrai centenas de milhares de devotos anualmente, impulsionado por uma lenda de fé e por ser o único Santuário no estado reconhecido pelo Vaticano."
+question_image = ExtResource("1_a8uat")
+options = Array[String](["São Franciso", "Santa Cruz dos Milagres", "Catedral de Teresina"])
+correct = "Santa Cruz dos Milagres"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

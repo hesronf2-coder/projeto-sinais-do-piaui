@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://dqqiwlxbcesse"]
+
+[ext_resource type="Texture2D" uid="uid://duuejtkw1eb2s" path="res://image/image_desafio/carnauba2.jpeg" id="1_lfov8"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_h01tt"]
+
+[resource]
+script = ExtResource("2_h01tt")
+question_info = "A carnaúba (árvore símbolo do estado) é a \"árvore da vida\" do Piauí. O estado é o maior produtor brasileiro de pó de carnaúba, concentrando mais de 60% da área dessa palmeira no Nordeste."
+question_image = ExtResource("1_lfov8")
+options = Array[String](["Carnaúba", "Buriti", "Cajueiro"])
+correct = "Carnaúba"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

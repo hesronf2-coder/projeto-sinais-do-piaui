@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://culvgqm1hdyw6"]
+
+[ext_resource type="Texture2D" uid="uid://bjlnp2mq6qwmn" path="res://image/image_aprender/rioparnaiba.jpeg" id="1_n4anb"]
+[ext_resource type="Texture2D" uid="uid://cqt61ed72tn5p" path="res://image/image_aprender/rioparnaiba3.jpeg" id="2_3pakr"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_aqiad"]
+
+[resource]
+script = ExtResource("2_aqiad")
+question_info = "Rio Parnaíba"
+question_image = ExtResource("2_3pakr")
+question_image2 = ExtResource("1_n4anb")
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

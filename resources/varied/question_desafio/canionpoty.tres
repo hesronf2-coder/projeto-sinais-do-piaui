@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://cgppduoefumkf"]
+
+[ext_resource type="Texture2D" uid="uid://umdoi1r2ob5l" path="res://image/image_desafio/canionpoty2.jpeg" id="1_gpjq5"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_7thsq"]
+
+[resource]
+script = ExtResource("2_7thsq")
+question_info = "O Cânion do Rio Poti, localizado na divisa entre o Ceará e o Piauí, é um santuário ecológico de 180 km de extensão com paredões rochosos que chegam a 60 metros de altura. Sua principal entrada é feita pelos municípios piauienses de Castelo do Piauí e Buriti dos Montes."
+question_image = ExtResource("1_gpjq5")
+options = Array[String](["Cânion do Poty", "Cânion do Gurguéia", "Cânion do Canidé"])
+correct = "Cânion do Poty"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

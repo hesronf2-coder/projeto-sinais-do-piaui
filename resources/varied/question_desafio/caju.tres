@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bjdn17kggx16k"]
+
+[ext_resource type="Texture2D" uid="uid://dh44l6y8xv015" path="res://image/image_desafio/caju2.jpeg" id="1_3pxdv"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_iigwn"]
+
+[resource]
+script = ExtResource("2_iigwn")
+question_info = "O caju é o símbolo do estado do Piauí, que possui a segunda maior área plantada do país. A grande curiosidade é que o que chamamos de fruta (a parte carnosa, amarela ou vermelha) é na verdade um pseudofruto. O verdadeiro fruto do cajueiro é a própria castanha!"
+question_image = ExtResource("1_3pxdv")
+options = Array[String](["Carnaúba", "Pequi", "Caju"])
+correct = "Caju"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

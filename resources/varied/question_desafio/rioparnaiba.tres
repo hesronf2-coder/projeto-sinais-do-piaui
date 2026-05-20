@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bibbgbgo6oxy"]
+
+[ext_resource type="Texture2D" uid="uid://ud3qjy3k6iug" path="res://image/image_desafio/rioparnaiba2.jpeg" id="1_cemkw"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_dvuve"]
+
+[resource]
+script = ExtResource("2_dvuve")
+question_info = "O Rio Parnaíba é o maior rio \"genuinamente\" nordestino, com cerca de 1.485 km de extensão. Ele nasce na Chapada das Mangabeiras (no sul do Piauí) e percorre todo o estado até desaguar no Oceano Atlântico."
+question_image = ExtResource("1_cemkw")
+options = Array[String](["Rio Longá", "Rio Poty", "Rio Parnaíba"])
+correct = "Rio Parnaíba"
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

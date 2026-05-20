@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://ynt3571suujv"]
+
+[ext_resource type="Texture2D" uid="uid://cojeodfr3fdta" path="res://image/image_aprender/bumbameuboi.jpeg" id="1_lkh7h"]
+[ext_resource type="Texture2D" uid="uid://dl7qau15n6x8g" path="res://image/image_aprender/bumbameuboi3.jpeg" id="2_6n5kq"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_n7riw"]
+
+[resource]
+script = ExtResource("2_n7riw")
+question_info = "Bumba-Meu-Boi"
+question_image = ExtResource("2_6n5kq")
+question_image2 = ExtResource("1_lkh7h")
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

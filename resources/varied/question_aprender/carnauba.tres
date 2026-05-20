@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://b05pw6bhc3tc3"]
+
+[ext_resource type="Texture2D" uid="uid://wtxn5knoboij" path="res://image/image_aprender/carnauba.jpeg" id="1_lgsg8"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_dhxfh"]
+[ext_resource type="Texture2D" uid="uid://c8y5n0rkkuwqa" path="res://image/image_aprender/carnauba3.jpeg" id="2_e3rct"]
+
+[resource]
+script = ExtResource("2_dhxfh")
+question_info = "Carnaúba"
+question_image = ExtResource("2_e3rct")
+question_image2 = ExtResource("1_lgsg8")
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

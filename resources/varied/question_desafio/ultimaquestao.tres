@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://5g1vjgccc8d0"]
+
+[ext_resource type="Texture2D" uid="uid://fcvdw7nrscrc" path="res://image/image_desafio/teresina2.jpeg" id="1_lxogt"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_cugsd"]
+
+[resource]
+script = ExtResource("2_cugsd")
+question_info = "Teresina"
+question_image = ExtResource("1_lxogt")
+options = Array[String](["Teresina", "Oeiras", "Lagoa do Sítio"])
+correct = "Teresina"
+question_description = "Teresina é a única capital do Nordeste que não fica no litoral. Conhecida como \"Cidade Verde\" e \"Mesopotâmia Brasileira\" por ser banhada pelos rios Parnaíba e Poti, a capital do Piauí guarda curiosidades geográficas e históricas."
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://cb66c83qdld5v"]
+
+[ext_resource type="Texture2D" uid="uid://ct44megfosxr" path="res://image/image_aprender/caju.jpeg" id="1_rluv3"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_g7ba0"]
+[ext_resource type="Texture2D" uid="uid://c0gecvguc7gs1" path="res://image/image_aprender/caju3.jpeg" id="2_o4o6c"]
+
+[resource]
+script = ExtResource("2_g7ba0")
+question_info = "Caju"
+question_image = ExtResource("2_o4o6c")
+question_image2 = ExtResource("1_rluv3")
+options = Array[String](["Carnaúba", "Pequi", "Caju"])
+metadata/_custom_type_script = "uid://dsacn43yg1b3x"
