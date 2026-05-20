@@ -74,4 +74,14 @@ Aplicativo **Sinais do Piauí** com dois modos principais:
 - Diêgo Ferreira  
 - Jennifer Alves  
 
-**Orientador:** Hesron Santos 
+**Orientador:** Hesron Santos
+
+## 📥 Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/projeto-sinais-do-piaui.git
+
+# Acesse a pasta
+cd sinais-do-piaui
+
+# Abra no Godot Engine
