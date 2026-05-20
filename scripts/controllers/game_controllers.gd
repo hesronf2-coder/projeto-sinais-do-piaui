@@ -28,10 +28,7 @@ func _ready() -> void:
 func load_quiz() -> void:
 	info_text.text = current_quiz.question_info
 	
-	if index >= quiz.theme.size() - 1:
-		_game_progress()
-		return
-		
+			
 	var options = current_quiz.options
 	for i in buttons.size():
 		buttons[i].text = options[i]
@@ -61,7 +58,7 @@ func _buttons_answer(button) -> void:
 		$AudioIncorrect.play()
 		await get_tree().create_timer(1.5).timeout
 		_next_question()
-		#$Control/ButtonGoQuestion.show()
+		
 
 func _next_question() -> void:
 	for bt in buttons:

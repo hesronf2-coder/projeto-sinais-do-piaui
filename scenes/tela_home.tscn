@@ -9,6 +9,7 @@ bg_color = Color(0.65882355, 0, 0.015686275, 1)
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
 script = ExtResource("1_jfreh")
+metadata/_edit_horizontal_guides_ = [1.0]
 
 [node name="Control" type="Control" parent="." unique_id=216256120]
 layout_mode = 3
@@ -24,22 +25,36 @@ scale = Vector2(0.6712963, 0.6692708)
 texture = ExtResource("2_0c2ro")
 
 [node name="ButtonAprender" type="Button" parent="Control" unique_id=585376701]
-layout_mode = 0
-offset_left = 84.0
-offset_top = 687.0
-offset_right = 647.0
-offset_bottom = 823.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.573
+anchor_right = 0.5
+anchor_bottom = 0.573
+offset_left = -276.0
+offset_top = -68.44
+offset_right = 287.0
+offset_bottom = 67.56
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 60
 text = "MODO ESTUDO"
 
 [node name="ButtonDesafio" type="Button" parent="Control" unique_id=341394932]
-layout_mode = 0
-offset_left = 86.0
-offset_top = 863.0
-offset_right = 649.0
-offset_bottom = 999.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.72700006
+anchor_right = 0.5
+anchor_bottom = 0.72700006
+offset_left = -274.0
+offset_top = -67.56006
+offset_right = 289.0
+offset_bottom = 68.43994
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 60
 text = "MODO DESAFIO"
 
@@ -47,11 +62,16 @@ text = "MODO DESAFIO"
 stream = ExtResource("3_0c2ro")
 
 [node name="ButtonQuit" type="Button" parent="Control" unique_id=1256022736]
-layout_mode = 0
-offset_left = 264.0
-offset_top = 1090.0
-offset_right = 438.0
-offset_bottom = 1159.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.48700002
+anchor_top = 0.873
+anchor_right = 0.48700002
+anchor_bottom = 0.873
+offset_left = -86.640015
+offset_top = -34.440063
+offset_right = 87.359985
+offset_bottom = 34.559937
 theme_override_colors/font_color = Color(0.8089983, 0.8089983, 0.8089982, 1)
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_0c2ro")
