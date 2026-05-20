@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dks8ngqsayyw"
-path="res://.godot/imported/botaosair-.png-17ad9c905e673d361062a7dd91291382.ctex"
+uid="uid://bayrofsdnbsb4"
+path="res://.godot/imported/tematelahome.jpg-66882804ad988da6299c4bb9faf8d598.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/botaosair-.png"
-dest_files=["res://.godot/imported/botaosair-.png-17ad9c905e673d361062a7dd91291382.ctex"]
+source_file="res://image/fundo_tema/tematelahome.jpg"
+dest_files=["res://.godot/imported/tematelahome.jpg-66882804ad988da6299c4bb9faf8d598.ctex"]
 
 [params]
 
