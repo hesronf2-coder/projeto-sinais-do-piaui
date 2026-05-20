@@ -33,3 +33,12 @@ func load_quiz() -> void:
 				question_video.stream = current_quiz.question_video
 				question_audio.stream = current_quiz.question_audio
 				question_video.play()
+	if index == 0:
+		$Control/ButtonPrevious.hide()
+	else:
+		$Control/ButtonPrevious.show()
+				
+	if index == quiz.theme.size() -1:
+		$Control/ButtonNext.hide()
+	else:
+		$Control/ButtonNext.show()
