@@ -85,3 +85,7 @@ git clone https://github.com/seuusuario/projeto-sinais-do-piaui.git
 cd sinais-do-piaui
 
 # Abra no Godot Engine
+
+### Demonstração
+Mostrando telas do inicio, modo aprender e modo desafio
+![App](image/fundo_tema/imagegrade.png)
