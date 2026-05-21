@@ -17,7 +17,7 @@ Aplicativo educacional que promove a alfabetização em Libras integrando símbo
 
 ---
 
-## 🌎 Por que o Piauí?
+## 🌎 Por que o Piauí como inspiração?
 Integração da Libras com símbolos culturais locais:  
 - Serra da Capivara (Patrimônio Mundial – UNESCO)  
 - Cânion do Rio Poti, Opalas de Pedro II  
@@ -91,7 +91,3 @@ git clone https://github.com/seuusuario/projeto-sinais-do-piaui.git
 cd sinais-do-piaui
 
 # Abra no Godot Engine
-
-### Demonstração
-Mostrando telas do inicio, modo aprender e modo desafio
-![App](image/fundo_tema/imagegrade.png)
