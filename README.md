@@ -17,7 +17,7 @@ Aplicativo educacional que promove a alfabetização em Libras integrando símbo
 
 ---
 
-## 🌎 Por que o Piauí?
+## 🌎 Por que o Piauí como inspiração?
 Integração da Libras com símbolos culturais locais:  
 - Serra da Capivara (Patrimônio Mundial – UNESCO)  
 - Cânion do Rio Poti, Opalas de Pedro II  
@@ -63,7 +63,13 @@ Aplicativo **Sinais do Piauí** com dois modos principais:
 - **Social:** Reduz barreiras de comunicação.  
 - **Educacional:** Recurso prático e lúdico alinhado às políticas nacionais de inclusão.  
 - **Cultural:** Valoriza a identidade piauiense.  
-- **Econômico:** Gratuito para escolas públicas, com potencial de expansão nacional.  
+- **Econômico:** Gratuito para escolas públicas, com potencial de expansão nacional.
+
+---
+## Demonstração
+-**Mostrando telas do App:**
+
+![App](image/fundo_tema/imagegrade.jpeg)
 
 ---
 
