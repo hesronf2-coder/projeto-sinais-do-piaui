@@ -32,11 +32,10 @@ func _ready() -> void:
 
 #função carregar o jogo
 func load_quiz() -> void:
-<<<<<<< HEAD
+
 	info_text.text = current_quiz.question_info
 	
 			
-=======
 #o texto da variável recebe o text das questoes.
 	info_text.text = current_quiz.question_info  
 
@@ -45,7 +44,7 @@ func load_quiz() -> void:
 		_game_progress()
 		return
 #carregando lista de botões com opçoes do banco de dados	
->>>>>>> 8f80a5dd677b992bd3a47bb5c323631fa7079381
+
 	var options = current_quiz.options
 	for i in buttons.size():
 		buttons[i].text = options[i]

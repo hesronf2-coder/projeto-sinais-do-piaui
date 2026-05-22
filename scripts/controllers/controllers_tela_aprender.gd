@@ -38,10 +38,10 @@ func load_quiz() -> void:
 				question_video.play()
 
 #condição para mudar o index para a próxima imagem apertando o botão.
-if index == 0:
-		$Control/ButtonPrevious.hide()
+	if index == 0:
+			$Control/ButtonPrevious.hide()
 	else:
-		$Control/ButtonPrevious.show()
+			$Control/ButtonPrevious.show()
 				
 	if index == quiz.theme.size() -1:
 		$Control/ButtonNext.hide()

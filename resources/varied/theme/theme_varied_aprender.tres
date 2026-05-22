@@ -15,5 +15,5 @@
 
 [resource]
 script = ExtResource("1_31dew")
-theme = Array[ExtResource("2_e0g33")]([ExtResource("3_d5e5m"), ExtResource("4_fyhnh"), ExtResource("5_0w2l5"), ExtResource("6_h42oo"), ExtResource("7_gfp5b"), ExtResource("8_u8iuk"), ExtResource("9_bhivl"), ExtResource("10_47kdh"), ExtResource("11_s3t4j"), ExtResource("12_0j8dj")])
+theme = Array[ExtResource("2_e0g33")]([ExtResource("8_u8iuk"), ExtResource("4_fyhnh"), ExtResource("5_0w2l5"), ExtResource("6_h42oo"), ExtResource("10_47kdh"), ExtResource("9_bhivl"), ExtResource("7_gfp5b"), ExtResource("12_0j8dj"), ExtResource("3_d5e5m"), ExtResource("11_s3t4j")])
 metadata/_custom_type_script = "uid://ksbkk86apgwo"
