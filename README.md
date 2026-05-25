@@ -89,5 +89,12 @@ git clone https://github.com/seuusuario/projeto-sinais-do-piaui.git
 
 # Acesse a pasta
 cd sinais-do-piaui
+Abra no Godot Engine
 
-# Abra no Godot Engine
+#OU
+Acesse a página principal do repositório no GitHub.
+Acima da lista de arquivos, procure e clique no botão verde Code.
+No menu que abrir, selecione Download ZIP.
+O navegador fará o download de uma pasta compactada contendo todos os arquivos do projeto.
+Descompacte o arquivo. 
+Abra o Godot e selecione a opção importar, selecione a pasta do projeto.
