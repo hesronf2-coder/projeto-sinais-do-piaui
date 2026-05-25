@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c42vfw3rltcmm"
-path="res://.godot/imported/telainicial.jpg-b33f8e5945da700a1d3b4b30e921e6a1.ctex"
+uid="uid://bav5op4os877f"
+path="res://.godot/imported/imagegrade.jpeg-113ddcda1444d10e45eb385395e28c94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/telainicial.jpg"
-dest_files=["res://.godot/imported/telainicial.jpg-b33f8e5945da700a1d3b4b30e921e6a1.ctex"]
+source_file="res://image/fundo_tema/imagegrade.jpeg"
+dest_files=["res://.godot/imported/imagegrade.jpeg-113ddcda1444d10e45eb385395e28c94.ctex"]
 
 [params]
 

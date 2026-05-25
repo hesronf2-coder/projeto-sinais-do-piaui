@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bcqk3rmrv2vhn"]
 
 [ext_resource type="Script" uid="uid://ff0gd5onrlio" path="res://scripts/controllers/home.gd" id="1_jfreh"]
-[ext_resource type="Texture2D" uid="uid://b77gteh72wmxw" path="res://image/fundo_tema/temainicio.jpg" id="2_0c2ro"]
+[ext_resource type="Texture2D" uid="uid://bayrofsdnbsb4" path="res://image/fundo_tema/tematelahome.jpg" id="2_0c2ro"]
 [ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="3_0c2ro"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0c2ro"]
